@@ -1,10 +1,15 @@
-# Yolov5 + StrongSORT with OSNet
+# Yolov5 + StrongSORT with OSNet + N0lan Trajectory Lines
 
+## Changes
 
+A trail variable has been added to track.py. Chaning this variable on like 44 now allows lines to be drawn trailing the object being tracked. Still works for all customized items.  
 
 
 
 <div align="center">
+<p>
+<img src="trail1.png" width="400"/> <img src="trail2.png" width="400"/> 
+</p>
 <p>
 <img src="strong_sort/results/track_pedestrians.gif" width="400"/> <img src="strong_sort/results/track_all.gif" width="400"/> 
 </p>
